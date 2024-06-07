@@ -52,4 +52,6 @@ target 'todoReactNativeNestJs' do
       :mac_catalyst_enabled => false
     )
   end
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
 end
